@@ -1,0 +1,57 @@
+.logo{
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.content{
+    text-align: center;
+    padding: 10px;
+}
+
+body{
+    background-color:	#FFF0F5 ;
+}
+
+h2{
+    font-family: 'Fredoka One', cursive;
+    padding: 10px;
+    color: 	#B22222;
+}
+
+#output{
+    padding: 20px;
+}
+
+#comment{
+    padding: 20px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.button{
+    background-color: #CD5C5C;
+    border: none;
+    color: 	white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.button2:hover{
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+}
+
+span{
+    color: #DB7093;
+}
+
+h4{
+    color:	#A0522D;
+}

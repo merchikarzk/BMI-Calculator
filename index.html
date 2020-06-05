@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <img src='roller-skating.png' class='logo'>
+      <h2>BMI Calculator</h2>
+      <p>Input your height: <input type="number" id="heightCM"/>
+        <select type="number for weight and height" id="heightInches">
+          <option value="metres" selected="selected">centimetres</option>
+          <option value="inches">inches</option>
+        </select>
+      </p>
+      <p>Input your weight: <input type="number" id="weightKg"/>
+        <select type="number for weight and height" id="weightLbs">
+          <option value="kg" selected="selected">kilograms</option>
+          <option value="lb">pounds</option>
+        </select>
+      </p>
+      <input class="button" type="button" value="Analyse" onclick="BMI()">
+      <div>
+        <h3>Your BMI is: <span id="output">...</span></h3>
+        <h3>That means you're: <span id="comment"> ...</span> </h3>
+      </div>
+      <h4><i>To make your body more stunning please use our <a href='../bmi/list.html'> workout list</a> ❤️</i></h4>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
